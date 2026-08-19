@@ -1,0 +1,24 @@
+@"
+# Dependencies
+node_modules/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+
+# Build / generated files
+dist/
+build/
+*.log
+*.tsbuildinfo
+
+# Personal files
+MySpace/
+concepts to learn.md
+"@ | Set-Content .gitignore 
