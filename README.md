@@ -1,4 +1,4 @@
-# Career Connect — Career Opportunity Aggregation & Placement Intelligence Platform
+# Career Scope — Career Opportunity Aggregation & Placement Intelligence Platform
 
 Career Connect is a full-stack data pipeline and placement intelligence platform built with Node.js, Express, MongoDB Atlas, and React. It periodically ingests job postings from two public APIs (Adzuna, RemoteOK) and two scraped sources — 37 companies across the Greenhouse and Lever applicant-tracking platforms, via a Cheerio HTML scraper (`services/ingestion/greenhouse.js`, `lever.js`) — normalises and deduplicates all four into a clean canonical dataset, and computes actionable placement intelligence — including in-database hiring trends and personalized skill-gap analysis with prep roadmaps.
 
